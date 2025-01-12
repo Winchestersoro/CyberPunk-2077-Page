@@ -1,0 +1,8 @@
+.SecondSlide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 777px;
+    width: 100vw;
+    background-color: #ffffff;
+}
