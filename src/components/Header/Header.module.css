@@ -1,0 +1,27 @@
+.headerCyber {
+    position: fixed;
+    top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+}
+
+.leftIcon {
+    width: 296px; 
+    height: auto;
+}
+
+.rightIcons {
+    display: flex;
+    width: 379px;
+    justify-content: space-between;
+}
+
+.rightIcons img {
+    width: 30px;
+    height: auto;
+    stroke: aliceblue;
+}
