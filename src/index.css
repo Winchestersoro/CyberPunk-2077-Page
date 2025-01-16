@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Arch';
+  src: url('./assets/fonts/ofont.ru_Archangelsk.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
