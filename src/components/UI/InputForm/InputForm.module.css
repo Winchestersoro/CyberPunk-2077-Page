@@ -1,0 +1,65 @@
+.form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F8F200;
+    color: #F8F200;
+    font-size: 16px;
+    outline: none;
+}
+
+.inputGroup label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #F8F200;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.2s ease all;
+}
+
+.inputGroup input:focus ~ label,
+.inputGroup input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    font-size: 12px;
+    color: #F8F200;
+}
+
+.button {
+    background-color: #F8F200;
+    width: 192px;
+    height: 59px;
+    border-radius: 0px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e6d700;
+}
+
+.checkboxGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #F8F200;
+}
+
+.checkboxGroup input {
+    margin-right: 10px;
+}

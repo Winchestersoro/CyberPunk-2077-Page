@@ -1,6 +1,6 @@
 import styles from "./FirstSlide.module.css";
 import Protoganist from "../../assets/Protoganist.jpeg";
-import InfoForm from "../UI/InfoForm/InfoForm";
+import InfoForm from "../UI/Banner/Banner";
 const FirstSlide: React.FC = () => {
   return (
     <div

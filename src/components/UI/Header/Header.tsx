@@ -28,7 +28,7 @@ const renderRightIcons = (icons: Icon[]): JSX.Element[] => {
 
 const Header: React.FC = () => {
     return (
-        <div className={classes.headerCyber}>
+        <header className={classes.headerCyber}>
 
              <a href="https://www.cyberpunk.net" target="_blank" rel="noopener noreferrer">
                 <img src={LeftIcon} alt="Left Icon" className={classes.leftIcon} />
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                 {renderRightIcons(rightIcons)}
             </div>
 
-        </div>
+        </header>
     );
 };
 

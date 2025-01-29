@@ -1,0 +1,45 @@
+.thirdSlide{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 884px;
+    background-color: black;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cyberH{
+    margin-bottom:20px;
+    font-family: Arch;
+    color:#F8F200;
+}
+.cyberP{
+    margin: 0;
+    color:#F8F200;
+}
+.formSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+}
+.formBlock{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    height: 369px;
+}
+
+.photoDown{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    background-image: url('../../assets/PhotoDown2.jpeg');
+}

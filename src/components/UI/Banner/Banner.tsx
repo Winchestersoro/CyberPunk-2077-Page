@@ -1,7 +1,7 @@
-import classes from "./InfoForm.module.css";
+import classes from "./Banner.module.css";
 import Photo from "../FormPhoto/Photo";
 
-const InfoForm = () => {
+const Banner = () => {
   return (
     <Photo size="standard">
       <div className={classes.inSec}>
@@ -21,4 +21,4 @@ const InfoForm = () => {
   );
 };
 
-export default InfoForm;
+export default Banner;
