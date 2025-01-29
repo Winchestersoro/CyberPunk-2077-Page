@@ -1,16 +1,19 @@
-import React from 'react';
-import LendingCyberpunk from './components/FirstSlide/LendingCyberpunk';
-import SecondSlide from './components/SecondSlide/SecondSlide';
-import Header from './components/Header/Header';
-import './App.css';
+import React from "react";
+import FirstSlide from "./components/FirstSlide/FirstSlide";
+import SecondSlide from "./components/SecondSlide/SecondSlide";
+import Header from "./components/UI/Header/Header";
+import ThirdSlide from "./components/ThirdSlide/ThirdSlide";
+import "./App.css";
+
 const App: React.FC = () => {
-    return (
-        <div className='UserView'>
-            <Header></Header>
-            <LendingCyberpunk />
-            <SecondSlide />
-        </div>
-    );
+  return (
+    <div className="UserView">
+      <Header />
+      <FirstSlide />
+      <SecondSlide />
+      <ThirdSlide />
+    </div>
+  );
 };
 
 export default App;

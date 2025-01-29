@@ -1,0 +1,30 @@
+.headerCyber {
+    position: fixed;
+    top: 0px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 1; 
+    
+}
+
+.leftIcon {
+    width: 296px; 
+    height: auto;
+    filter: drop-shadow(0 0 5px white);
+}
+
+.rightIcons {
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    
+}
+.rightIcon {
+    width: 30px;
+    height: auto;
+    filter: drop-shadow(0 0 5px white);
+    
+}
