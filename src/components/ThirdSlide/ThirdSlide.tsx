@@ -21,10 +21,9 @@ const ThirdSlide = () => {
                         <p className={styles.cyberP}>Будьте в курсе всех новостей вселенной</p>
                     </div>
 
-                    <a href="https://www.cdprojektred.com/en" className={styles.photoDownLink}>
+                    <a href="https://www.cdprojektred.com/en" className={styles.photoDownLink} target="_blank" rel="noopener noreferrer">
                         <div className={styles.cdPr}>
-                        <a href="https://www.cdprojektred.com/en" className={styles.photoDownLink}> </a>
-
+                       
                         </div>
                     </a>
 

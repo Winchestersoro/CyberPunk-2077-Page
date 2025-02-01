@@ -19,7 +19,7 @@ const FourthSlide = () => {
 
                     <p className={styles.phantomLibP}>Исследуйте новые районы Найт-Сити, откройте для себя новые миссии и персонажей, и погрузитесь в еще более глубокий мир Cyberpunk 2077 с дополнением "Phantom Liberty".</p>
 
-                    <a href="https://www.cyberpunk.net/ru/ru/phantom-liberty">
+                    <a href="https://www.cyberpunk.net/ru/ru/phantom-liberty" target="_blank" rel="noopener noreferrer">
                         <Photo size="small" src = {Phantom} alt='Phantom'>
                             {" "}
                         </Photo>

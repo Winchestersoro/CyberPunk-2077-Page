@@ -6,6 +6,7 @@ import ThirdSlide from "./components/ThirdSlide/ThirdSlide";
 import "./App.css";
 import FourthSlide from "./components/FourthSlide/FourthSlide";
 import FifthSlide from "./components/FifthSlide/FifthSlide";
+import Footer from "./components/UI/Footer/Footer";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <ThirdSlide />
       <FourthSlide />
       <FifthSlide />
+      <Footer />
     </div>
   );
 };

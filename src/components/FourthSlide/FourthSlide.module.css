@@ -27,19 +27,20 @@
 }
 
 .descriptionBlock{
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     
 }
 .phantomLib{
     font-family: Arch;
     color: #000000;
-    font-size: 50px;
+    font-size: 62px;
     margin: 0;
+    
 }
 .phantomLibP{
     font-family: Arch;
@@ -48,4 +49,5 @@
     width: 90%;
     margin: 0;
     margin-bottom: 25px;
+    
 }
