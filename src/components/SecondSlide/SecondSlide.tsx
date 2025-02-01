@@ -6,7 +6,7 @@ import Photo2 from "../../assets/photo//732233ec3c7b0acf70041615c8404563.png";
 
 const SecondSlide = () => {
   return (
-    <div className={styles.SecondSlide}>
+    <section className={styles.SecondSlide}>
       <div className={styles.description}>
         <h3 className={styles.title}>Найт-Сити изменит тебя навсегда!</h3>
         <p className={styles.text}>
@@ -44,7 +44,7 @@ const SecondSlide = () => {
       </div>
 
       <div className={styles.photoDown}></div>
-    </div>
+    </section>
   );
 };
 

@@ -1,0 +1,84 @@
+.fifthSlide{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 717px;
+    width: 100vw;
+    background-color: #000000;
+}
+.photoSec{
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    background-image: url('../../assets/disk.jpg');
+}
+.textSec{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-left: 30px;
+    justify-content: center;
+}
+.hFirst{
+    font-family: Arch;
+    color: #ffffff;
+    font-size: 62px;
+    margin: 0;
+}
+.pDesc{
+    color:#52BEDC;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.hSec{
+    margin: 0;
+}
+
+.containBlock{
+    width: 480px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.iconBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+}
+.iconDesc{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    white-space: nowrap;
+    margin: 0;
+}
+.moreIcons{
+    width: 320px;
+    height: 135px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 20px;
+}
+.iconSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.svgIc1{
+    height: 100%;
+    width: 56px
+}
+.svgIc2{
+    height: 100%;
+    width: 178px
+}

@@ -9,7 +9,7 @@ const ThirdSlide = () => {
    
     
     return (
-        <div className={styles.thirdSlide}>
+        <section className={styles.thirdSlide}>
 
             <div className={styles.formSection}>
 
@@ -43,7 +43,7 @@ const ThirdSlide = () => {
                 </div>
             
         
-        </div>
+        </section>
     );
 };
 
