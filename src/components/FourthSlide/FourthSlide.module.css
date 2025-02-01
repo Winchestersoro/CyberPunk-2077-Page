@@ -1,0 +1,51 @@
+.yellowSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 676px;
+    background-color: #F8F200;
+}
+
+.middleSection{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.monitor{
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/monitor.png');
+    background-size: contain;
+    background-position: center;
+  
+}
+
+.descriptionBlock{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.phantomLib{
+    font-family: Arch;
+    color: #000000;
+    font-size: 50px;
+    margin: 0;
+}
+.phantomLibP{
+    font-family: Arch;
+    color: #000000;
+    font-size: 25px;
+    width: 90%;
+    margin: 0;
+    margin-bottom: 25px;
+}

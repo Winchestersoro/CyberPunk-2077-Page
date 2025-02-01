@@ -4,6 +4,7 @@ import SecondSlide from "./components/SecondSlide/SecondSlide";
 import Header from "./components/UI/Header/Header";
 import ThirdSlide from "./components/ThirdSlide/ThirdSlide";
 import "./App.css";
+import FourthSlide from "./components/FourthSlide/FourthSlide";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <FirstSlide />
       <SecondSlide />
       <ThirdSlide />
+      <FourthSlide />
     </div>
   );
 };
