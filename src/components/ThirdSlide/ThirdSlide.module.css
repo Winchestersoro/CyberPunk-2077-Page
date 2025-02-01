@@ -34,10 +34,12 @@
     margin-bottom:20px;
     font-family: Arch;
     color:#F8F200;
+    font-size: 62px;
 }
 .cyberP{
     margin: 0;
     color:#F8F200;
+    font-size: 25px;
 }
 .formSection{
     display: flex;

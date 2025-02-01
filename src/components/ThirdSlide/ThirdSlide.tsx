@@ -9,7 +9,7 @@ const ThirdSlide = () => {
    
     
     return (
-        <div className={styles.thirdSlide}>
+        <section className={styles.thirdSlide}>
 
             <div className={styles.formSection}>
 
@@ -21,10 +21,9 @@ const ThirdSlide = () => {
                         <p className={styles.cyberP}>Будьте в курсе всех новостей вселенной</p>
                     </div>
 
-                    <a href="https://www.cdprojektred.com/en" className={styles.photoDownLink}>
+                    <a href="https://www.cdprojektred.com/en" className={styles.photoDownLink} target="_blank" rel="noopener noreferrer">
                         <div className={styles.cdPr}>
-                        <a href="https://www.cdprojektred.com/en" className={styles.photoDownLink}> </a>
-
+                       
                         </div>
                     </a>
 
@@ -43,7 +42,7 @@ const ThirdSlide = () => {
                 </div>
             
         
-        </div>
+        </section>
     );
 };
 

@@ -3,14 +3,14 @@ import Protoganist from "../../assets/Protoganist.jpeg";
 import InfoForm from "../UI/Banner/Banner";
 const FirstSlide: React.FC = () => {
   return (
-    <div
+    <section
       className={styles.LendingPage}
       style={{ backgroundImage: `url(${Protoganist})` }}
     >
       <div className={styles.CenterSection}>
         <InfoForm />
       </div>
-    </div>
+    </section>
   );
 };
 
