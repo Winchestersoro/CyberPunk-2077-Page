@@ -1,5 +1,5 @@
 import classes from "./Banner.module.css";
-import Photo from "../FormPhoto/Photo";
+import Photo from "../Form/Form";
 
 const Banner = () => {
   return (
