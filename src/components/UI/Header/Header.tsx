@@ -18,14 +18,6 @@ const rightIcons: Icon[] = [
     { src: RightIcon4, link: 'https://www.cyberpunk.net/ru/news/49753/obshchaites-kak-kiberpank-so-stikerami-v-telegram' }
 ];
 
-const renderRightIcons = (icons: Icon[]): JSX.Element[] => {
-    return icons.map((icon, index) => (
-        <a key={index} href={icon.link} target="_blank" rel="noopener noreferrer">
-            <img src={icon.src} alt={`Right Icon ${index + 1}`} className={classes.rightIcon} />
-        </a>
-    ));
-};
-
 const Header: React.FC = () => {
     return (
         <header className={classes.headerCyber}>
@@ -35,7 +27,11 @@ const Header: React.FC = () => {
             </a>
 
             <div className={classes.rightIcons}>
-                {renderRightIcons(rightIcons)}
+                {
+                    rightIcons.map((icon, index) => <a key={index} href={icon.link} target="_blank" rel="noopener noreferrer">
+                    <img src={icon.src} alt={`Right Icon ${index + 1}`} className={classes.rightIcon} />
+                </a>)
+                }
             </div>
 
         </header>

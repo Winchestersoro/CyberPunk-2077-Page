@@ -1,14 +1,14 @@
 import { clsx } from "clsx";
-import styles from "./Photo.module.css";
+import styles from "./Form.module.css";
 
 interface PhotoProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   size: "standard" | "small" | "large";
   src?: string;
   alt?: string;
 }
 
-const Photo: React.FC<PhotoProps> = ({ children, size, src, alt }) => {
+const Form: React.FC<PhotoProps> = ({ children, size, src, alt }) => {
   // const sizeClass = size === 'small' ? styles.small : size === 'large' ? styles.large : styles.standard;
 
   return (
@@ -20,4 +20,4 @@ const Photo: React.FC<PhotoProps> = ({ children, size, src, alt }) => {
   );
 };
 
-export default Photo;
+export default Form;

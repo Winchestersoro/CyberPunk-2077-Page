@@ -1,4 +1,4 @@
-import Photo from "../UI/FormPhoto/Photo";
+import Form from "../UI/Form/Form";
 import styles from "./SecondSlide.module.css";
 import Photo1 from "../../assets/photo/c035da59c21a6ae999fdb8660cc9a4ce.png";
 import Photo3 from "../../assets/photo/8dfd066535b9f02d859e2bd951f27644.png";
@@ -17,8 +17,8 @@ const SecondSlide = () => {
             className={styles.link}
           >
             Cyberpunk 2077
-          </a>{" "}
-          — приключенческая ролевая игра, действие которой происходит в
+          </a>
+           — приключенческая ролевая игра, действие которой происходит в
           мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся
           выше всего. Ты играешь за V, наёмника в поисках устройства,
           позволяющего обрести бессмертие. Ты сможешь менять киберимпланты,
@@ -29,17 +29,12 @@ const SecondSlide = () => {
 
       <div className={styles.photoContainer}>
         <div className={styles.twoPhotos}>
-          <Photo size="small" src={Photo1} alt="Фото 1">
-            {" "}
-          </Photo>
-          <Photo size="small" src={Photo2} alt="Фото 2">
-            {" "}
-          </Photo>
+          <Form size="small" src={Photo1} alt="Фото 1" />
+          <Form size="small" src={Photo2} alt="Фото 2" />
         </div>
+
         <div className={styles.onePhoto}>
-          <Photo size="large" src={Photo3} alt="Фото 3">
-            {" "}
-          </Photo>
+          <Form size="large" src={Photo3} alt="Фото 3" />
         </div>
       </div>
 
