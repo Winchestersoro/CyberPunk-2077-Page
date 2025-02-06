@@ -2,7 +2,7 @@
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-color: rgb(255, 238, 0);
+    background-image: url('../../assets/Protoganist.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,5 +13,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end; 
-    margin: 0 auto;
+    margin: 0;
+}
+
+@media (max-width: 450px){
+    .CenterSection{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: flex-end; 
+    }
 }
