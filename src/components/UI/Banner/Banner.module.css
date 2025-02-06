@@ -1,8 +1,10 @@
 
   .inSec{
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-evenly;
     font-family: Arch;
   }
 
@@ -17,7 +19,7 @@
     font-size: 62px;
     color: black;
     margin: 0;
-    margin-bottom: -30px;
+    line-height: 1;
   }
   
   .Button {
@@ -28,10 +30,26 @@
     cursor: pointer;
     font-size: 25px;
     border-radius: 0px;
-    margin-top: 40px;
     text-decoration: none;
   }
   
   .Button:hover {
     background-color: #333;
   }
+
+  @media (max-width: 375px){
+    .TextA {
+      font-size: 30px;
+    }
+    .Button {
+      width: 244px;
+      height: 60px;
+      font-size: 20px;
+     
+    }
+    .textSec{
+      align-items: flex-start;
+      justify-content: center;
+      align-items:center
+    }
+}

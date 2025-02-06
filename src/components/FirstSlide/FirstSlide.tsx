@@ -1,14 +1,11 @@
 import styles from "./FirstSlide.module.css";
-import Protoganist from "../../assets/Protoganist.jpeg";
-import InfoForm from "../UI/Banner/Banner";
+;
+import Banner from "../UI/Banner/Banner";
 const FirstSlide: React.FC = () => {
   return (
-    <section
-      className={styles.LendingPage}
-      style={{ backgroundImage: `url(${Protoganist})` }}
-    >
+    <section  className={styles.LendingPage}>
       <div className={styles.CenterSection}>
-        <InfoForm />
+        <Banner />
       </div>
     </section>
   );

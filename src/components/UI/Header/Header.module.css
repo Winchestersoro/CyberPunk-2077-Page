@@ -28,3 +28,11 @@
     filter: drop-shadow(0 0 5px white);
     
 }
+
+
+@media (max-width: 375px){
+    .headerCyber {
+        flex-direction: column;
+        align-items: center;
+    }
+}
