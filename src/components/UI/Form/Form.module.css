@@ -28,10 +28,10 @@
   height: auto;
 }
 
-@media (max-width: 375px){
+@media (max-width: 450px){
   .large {
     width: 100%;
-    height: 424px;
+    height: 196px;
   }
   .standard {
     width: 100%;
@@ -43,10 +43,5 @@
     width: 100%;
     height: 196px;
   }
-  .photo {
-    height: 100%;
-  }
-  .photo:last-child {
-    width: 140%;
-  }
+  
 }

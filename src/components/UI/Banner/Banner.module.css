@@ -37,7 +37,7 @@
     background-color: #333;
   }
 
-  @media (max-width: 375px){
+  @media (max-width: 450px){
     .TextA {
       font-size: 30px;
     }
