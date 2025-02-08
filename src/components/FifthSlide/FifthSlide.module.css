@@ -13,6 +13,9 @@
     width: 50%;
     height: 100%;
     background-image: url('../../assets/disk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 .textSec{
     display: flex;
@@ -20,7 +23,7 @@
     width: 50%;
     height: 100%;
     margin-left: 30px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .hFirst{
     font-family: Arch;
@@ -39,12 +42,11 @@
 }
 
 .containBlock{
-    width: 480px;
+    width: 100%;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 40px;
 }
 .iconBlock{
     display: flex;
@@ -82,4 +84,33 @@
 .svgIc2{
     height: 100%;
     width: 178px
+}
+@media (max-width: 500px){
+    .fifthSlide{
+        height: 785px;
+        flex-direction: column;
+    }
+    .photoSec{
+        width: 100%;
+        height: 30%;
+    }
+    .textSec{
+        width: 90%;
+        margin-left: 0;
+    }
+    .hFirst{
+        font-size: 30px;
+    }
+    .pDesc{
+        font-size: 20px;
+    }
+    .iconDesc{
+        font-size: 16px;
+    }
+    .moreIcons{
+        width: 100%;
+    }
+    .iconDesc{
+        white-space: pre-wrap;
+    }
 }

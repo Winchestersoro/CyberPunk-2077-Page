@@ -11,7 +11,6 @@
 .description{
     display: flex;
     flex-direction: column;
-    
 }
 .descBlock{
     display: flex;
@@ -67,3 +66,31 @@
     display: flex;
     background-image: url('../../assets/PhotoDown2.jpeg');
 }
+
+@media (max-width: 500px){
+    .thirdSlide{
+        height: 1070px;
+    }
+    .formBlock{
+        justify-content: space-around;
+    }
+    .descBlock{
+        align-content:space-around;
+    }
+    .cyberH{
+        font-size: 30px;
+    }
+    .cyberP{
+        font-size: 16px;
+    }
+    .formBlock{
+        display: flex;
+        flex-direction:column;
+        height: auto;
+        gap: 20px;
+    }
+    .formSection{  
+        justify-content: space-evenly;
+    }
+}
+

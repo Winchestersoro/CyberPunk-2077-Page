@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
-import photoLeft from '../../../assets/Footer/logo.svg';
-import photoRight from '../../../assets/Footer/g10.svg';
+import photoLeft from '../../assets/Footer/logo.svg';
+import photoRight from '../../assets/Footer/g10.svg';
 
 const Footer = () => {
     return (
