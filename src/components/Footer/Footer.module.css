@@ -4,7 +4,7 @@
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;  
 }
 .up{
@@ -30,12 +30,12 @@
     font-weight: 400;
 }
 .leftPart{
-   width: 500px; 
+   width: 100%; 
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 .rightPart{
-    width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -43,4 +43,27 @@
 .rightText{
     font-size: 18px;
     color: #000000;
+}
+
+@media (max-width: 500px){
+    .footerCDPR{
+        height: 350px;
+    }
+    .leftPart{
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightPart{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .up{
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
 }

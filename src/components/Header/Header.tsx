@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './Header.module.css';
-import LeftIcon from '../../../assets/Cyberpunk_2077_logo 1.svg';
-import RightIcon1 from '../../../assets/icons/instagram-square logo.svg';
-import RightIcon2 from '../../../assets/icons/vk logo.svg';
-import RightIcon3 from '../../../assets/icons/youtube logo.svg';
-import RightIcon4 from '../../../assets/icons/telegram.svg';
+import LeftIcon from '../../assets/Cyberpunk_2077_logo 1.svg';
+import RightIcon1 from '../../assets/icons/instagram-square logo.svg';
+import RightIcon2 from '../../assets/icons/vk logo.svg';
+import RightIcon3 from '../../assets/icons/youtube logo.svg';
+import RightIcon4 from '../../assets/icons/telegram.svg';
 
 interface Icon {
     src: string;
